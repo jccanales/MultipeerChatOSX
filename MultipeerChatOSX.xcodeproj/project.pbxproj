@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		257549A61C53DBA800758FAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257549A51C53DBA800758FAE /* AppDelegate.swift */; };
+		257549A81C53DBA800758FAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257549A71C53DBA800758FAE /* ViewController.swift */; };
+		257549AA1C53DBA800758FAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 257549A91C53DBA800758FAE /* Assets.xcassets */; };
+		257549AD1C53DBA800758FAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 257549AB1C53DBA800758FAE /* Main.storyboard */; };
+		257549B81C53DBA800758FAE /* MultipeerChatOSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257549B71C53DBA800758FAE /* MultipeerChatOSXTests.swift */; };
+		257549C31C53DBA800758FAE /* MultipeerChatOSXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257549C21C53DBA800758FAE /* MultipeerChatOSXUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		257549B41C53DBA800758FAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2575499A1C53DBA800758FAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 257549A11C53DBA800758FAE;
+			remoteInfo = MultipeerChatOSX;
+		};
+		257549BF1C53DBA800758FAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2575499A1C53DBA800758FAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 257549A11C53DBA800758FAE;
+			remoteInfo = MultipeerChatOSX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		257549A21C53DBA800758FAE /* MultipeerChatOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipeerChatOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		257549A51C53DBA800758FAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		257549A71C53DBA800758FAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		257549A91C53DBA800758FAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		257549AC1C53DBA800758FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		257549AE1C53DBA800758FAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		257549B31C53DBA800758FAE /* MultipeerChatOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipeerChatOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		257549B71C53DBA800758FAE /* MultipeerChatOSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerChatOSXTests.swift; sourceTree = "<group>"; };
+		257549B91C53DBA800758FAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		257549BE1C53DBA800758FAE /* MultipeerChatOSXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipeerChatOSXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		257549C21C53DBA800758FAE /* MultipeerChatOSXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerChatOSXUITests.swift; sourceTree = "<group>"; };
+		257549C41C53DBA800758FAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2575499F1C53DBA800758FAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		257549B01C53DBA800758FAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		257549BB1C53DBA800758FAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		257549991C53DBA800758FAE = {
+			isa = PBXGroup;
+			children = (
+				257549A41C53DBA800758FAE /* MultipeerChatOSX */,
+				257549B61C53DBA800758FAE /* MultipeerChatOSXTests */,
+				257549C11C53DBA800758FAE /* MultipeerChatOSXUITests */,
+				257549A31C53DBA800758FAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		257549A31C53DBA800758FAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				257549A21C53DBA800758FAE /* MultipeerChatOSX.app */,
+				257549B31C53DBA800758FAE /* MultipeerChatOSXTests.xctest */,
+				257549BE1C53DBA800758FAE /* MultipeerChatOSXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		257549A41C53DBA800758FAE /* MultipeerChatOSX */ = {
+			isa = PBXGroup;
+			children = (
+				257549A51C53DBA800758FAE /* AppDelegate.swift */,
+				257549A71C53DBA800758FAE /* ViewController.swift */,
+				257549A91C53DBA800758FAE /* Assets.xcassets */,
+				257549AB1C53DBA800758FAE /* Main.storyboard */,
+				257549AE1C53DBA800758FAE /* Info.plist */,
+			);
+			path = MultipeerChatOSX;
+			sourceTree = "<group>";
+		};
+		257549B61C53DBA800758FAE /* MultipeerChatOSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				257549B71C53DBA800758FAE /* MultipeerChatOSXTests.swift */,
+				257549B91C53DBA800758FAE /* Info.plist */,
+			);
+			path = MultipeerChatOSXTests;
+			sourceTree = "<group>";
+		};
+		257549C11C53DBA800758FAE /* MultipeerChatOSXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				257549C21C53DBA800758FAE /* MultipeerChatOSXUITests.swift */,
+				257549C41C53DBA800758FAE /* Info.plist */,
+			);
+			path = MultipeerChatOSXUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		257549A11C53DBA800758FAE /* MultipeerChatOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 257549C71C53DBA800758FAE /* Build configuration list for PBXNativeTarget "MultipeerChatOSX" */;
+			buildPhases = (
+				2575499E1C53DBA800758FAE /* Sources */,
+				2575499F1C53DBA800758FAE /* Frameworks */,
+				257549A01C53DBA800758FAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultipeerChatOSX;
+			productName = MultipeerChatOSX;
+			productReference = 257549A21C53DBA800758FAE /* MultipeerChatOSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		257549B21C53DBA800758FAE /* MultipeerChatOSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 257549CA1C53DBA800758FAE /* Build configuration list for PBXNativeTarget "MultipeerChatOSXTests" */;
+			buildPhases = (
+				257549AF1C53DBA800758FAE /* Sources */,
+				257549B01C53DBA800758FAE /* Frameworks */,
+				257549B11C53DBA800758FAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				257549B51C53DBA800758FAE /* PBXTargetDependency */,
+			);
+			name = MultipeerChatOSXTests;
+			productName = MultipeerChatOSXTests;
+			productReference = 257549B31C53DBA800758FAE /* MultipeerChatOSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		257549BD1C53DBA800758FAE /* MultipeerChatOSXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 257549CD1C53DBA800758FAE /* Build configuration list for PBXNativeTarget "MultipeerChatOSXUITests" */;
+			buildPhases = (
+				257549BA1C53DBA800758FAE /* Sources */,
+				257549BB1C53DBA800758FAE /* Frameworks */,
+				257549BC1C53DBA800758FAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				257549C01C53DBA800758FAE /* PBXTargetDependency */,
+			);
+			name = MultipeerChatOSXUITests;
+			productName = MultipeerChatOSXUITests;
+			productReference = 257549BE1C53DBA800758FAE /* MultipeerChatOSXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2575499A1C53DBA800758FAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = UPC;
+				TargetAttributes = {
+					257549A11C53DBA800758FAE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					257549B21C53DBA800758FAE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 257549A11C53DBA800758FAE;
+					};
+					257549BD1C53DBA800758FAE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 257549A11C53DBA800758FAE;
+					};
+				};
+			};
+			buildConfigurationList = 2575499D1C53DBA800758FAE /* Build configuration list for PBXProject "MultipeerChatOSX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 257549991C53DBA800758FAE;
+			productRefGroup = 257549A31C53DBA800758FAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				257549A11C53DBA800758FAE /* MultipeerChatOSX */,
+				257549B21C53DBA800758FAE /* MultipeerChatOSXTests */,
+				257549BD1C53DBA800758FAE /* MultipeerChatOSXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		257549A01C53DBA800758FAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257549AA1C53DBA800758FAE /* Assets.xcassets in Resources */,
+				257549AD1C53DBA800758FAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		257549B11C53DBA800758FAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		257549BC1C53DBA800758FAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2575499E1C53DBA800758FAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257549A81C53DBA800758FAE /* ViewController.swift in Sources */,
+				257549A61C53DBA800758FAE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		257549AF1C53DBA800758FAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257549B81C53DBA800758FAE /* MultipeerChatOSXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		257549BA1C53DBA800758FAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257549C31C53DBA800758FAE /* MultipeerChatOSXUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		257549B51C53DBA800758FAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 257549A11C53DBA800758FAE /* MultipeerChatOSX */;
+			targetProxy = 257549B41C53DBA800758FAE /* PBXContainerItemProxy */;
+		};
+		257549C01C53DBA800758FAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 257549A11C53DBA800758FAE /* MultipeerChatOSX */;
+			targetProxy = 257549BF1C53DBA800758FAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		257549AB1C53DBA800758FAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				257549AC1C53DBA800758FAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		257549C51C53DBA800758FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		257549C61C53DBA800758FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		257549C81C53DBA800758FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MultipeerChatOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pe.edu.upc.MultipeerChatOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		257549C91C53DBA800758FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MultipeerChatOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pe.edu.upc.MultipeerChatOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		257549CB1C53DBA800758FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MultipeerChatOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pe.edu.upc.MultipeerChatOSXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultipeerChatOSX.app/Contents/MacOS/MultipeerChatOSX";
+			};
+			name = Debug;
+		};
+		257549CC1C53DBA800758FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MultipeerChatOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pe.edu.upc.MultipeerChatOSXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultipeerChatOSX.app/Contents/MacOS/MultipeerChatOSX";
+			};
+			name = Release;
+		};
+		257549CE1C53DBA800758FAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MultipeerChatOSXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pe.edu.upc.MultipeerChatOSXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MultipeerChatOSX;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		257549CF1C53DBA800758FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MultipeerChatOSXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pe.edu.upc.MultipeerChatOSXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MultipeerChatOSX;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2575499D1C53DBA800758FAE /* Build configuration list for PBXProject "MultipeerChatOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				257549C51C53DBA800758FAE /* Debug */,
+				257549C61C53DBA800758FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		257549C71C53DBA800758FAE /* Build configuration list for PBXNativeTarget "MultipeerChatOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				257549C81C53DBA800758FAE /* Debug */,
+				257549C91C53DBA800758FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		257549CA1C53DBA800758FAE /* Build configuration list for PBXNativeTarget "MultipeerChatOSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				257549CB1C53DBA800758FAE /* Debug */,
+				257549CC1C53DBA800758FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		257549CD1C53DBA800758FAE /* Build configuration list for PBXNativeTarget "MultipeerChatOSXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				257549CE1C53DBA800758FAE /* Debug */,
+				257549CF1C53DBA800758FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2575499A1C53DBA800758FAE /* Project object */;
+}
